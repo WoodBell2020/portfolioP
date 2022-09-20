@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>bellNewsPage</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="”icon”" href="" />
+  <!-- フォント -->
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- SwiperCDN読み込み -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- <link rel="stylesheet" href="./css/component.css"> -->
+  <!-- <link rel="stylesheet" href="./css/layout.css"> -->
+  <!-- <link rel="stylesheet" href="./css/reuse.css"> -->
+  <!-- <link rel="stylesheet" href="./css/news.css"> -->
+  <link rel="stylesheet" href="./css/form.css">
+  <!-- JavaScript -->
+  <!-- <script defer src="./js/swiper.js"></script>
+<script defer src="./js/script.js"></script> -->
+
+</head>
+
+<body>
+
+
+  <header class="c-header">
+    <div class="c-header__wrapper">
+
+      <div class="l-headerInner">
+
+        <div class="c-header__container">
+
+          <a href="./index.html" class="c-header__titleBox">
+            <h1 class="c-header__logo">
+              <img src="./img/headerLogo01.png" alt="タイトルロゴ">
+            </h1>
+          </a>
+
+          <div class="c-header__boxSP">
+
+            <nav class="c-header__navBox">
+              <ul class="c-header__navLists js-global-nav">
+
+                <li>
+                  <a href="./newsTop.html">
+                    お知らせ
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">通達</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">通知</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">その他</a>
+
+                        <ul>
+                          <li><a href="./404.html">404画面</a></li>
+                          <li><a href="./login.html">ログイン画面</a></li>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="./form1.html">フォームモジュール</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="./newsTop.html">その他2</a>
+
+                        <ul>
+                          <li><a href="./techTop.html">技術トップ画面</a></li>
+                          <li><a href="./techDetail.html">技術詳細画面</a></li>
+                          <li><a href="./newsTop.html">ニューストップ画面</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="./newsTop.html">その他3</a>
+
+                        <ul>
+                          <li><a href="./trainingTop.html">教育・研修＜一覧＞</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="./trainingDetail.html">研修詳細</a></li>
+                          <li><a href="./siteSearch.html">サイト内検索ページ
+                            </a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                        </ul>
+
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    規程・手続き関連
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">会社諸規定</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">安全衛生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">福利厚生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+                        <a href="#">拠点</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    システム関連
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">安全衛生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">福利厚生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">拠点</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+
+                </li>
+
+
+
+
+                <li>
+                  <a href="#" class="c-header__item">
+                    教育
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+
+                      <li>
+
+                        <a href="#">研修</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">Eラーニング</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">カレンダー</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">詳細</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+                </li>
+
+                <li>
+                  <a href="#">
+                    詳細
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">教育G所轄の書籍の貸し出し</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">Udemyなどライセンス</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">設備管理<br>（PC・CADなど教育所轄設備）</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">講座申し込み</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">検定の申し込み</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">お問い合わせ</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </li>
+
+
+
+
+
+
+                <li>
+                  <a href="#">
+                    コミュニケーション
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">社長メッセージ</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">投稿</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">その他</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </li>
+
+              </ul>
+            </nav>
+
+
+            <form action="#" name="search1" method="post" class="c-header__search01 c-search01">
+              <dl>
+                <dt>
+                  <input type="text" name="search" value="" placeholder="検索ワードを入力" />
+                </dt>
+                <dd><button><span></span></button></dd>
+              </dl>
+            </form>
+
+
+            <div class="c-header__utilityNavi c-utility">
+              <nav class="c-utility__box">
+                <ul class="c-utility__lists">
+                  <li><a href="#">COMPANY人事(社外ネットワーク専用)</a></li>
+                  <li><a href="#">COMPANY財務(社外ネットワーク専用)</a></li>
+                  <li><a href="#">i-flow</a></li>
+                  <li><a href="#">RIBBON</a></li>
+                  <li><a href="#">HITO-Talent</a></li>
+                  <li><a href="#">Web勤怠</a></li>
+                  <li><a href="#">デザインバーチャル背景</a></li>
+                  <li><a href="#">社員ポータルについて</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+            <div class="c-header__close c-btnClose">
+              <span></span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="js-hamburger c-header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <div class="l-innerA">
+
+    <div class="l-twoCol">
+
+      <div class="l-mainCol">
+
+
+
+
+
+
+
+
+
+
+        <body id="classic-website" class="mt-entry-archive layout-wtt">
+          <div id="container">
+            <div id="container-inner">
+
+
+
+
+
+
+              <div id="content">
+                <div id="content-inner">
+
+
+                  <div id="alpha">
+                    <div id="alpha-inner">
+
+
+                      <div id="entry-584" class="entry-asset asset hentry">
+
+                        <div class="asset-header">
+                          <h1 id="page-title" class="asset-name entry-title c-h1Title">フォーム01</h1>
+                          <div class="asset-meta">
+                            <span class="byline">
+                          </div>
+                        </div>
+
+
+
+                        <div class="asset-content entry-content">
+
+                          <div class="asset-body">
+                            <script type="text/javascript">
+                              // <!--
+                              aform = new Object;
+                              aform.id = '1';
+                              aform.logger_url = '/mt/plugins/AForm/aform_logger.cgi';
+                              aform.checker_url = '/mt/plugins/AForm/aform_checker.cgi';
+                              aform.phrases = {
+                                "Input error:": "入力エラー:"
+                              };
+                              aform.static_uri = '/mt/mt-static/';
+                              aform.pages = [{
+                                "next": null,
+                                "prev": null,
+                                "parts_id": ["parts-1", "parts-2", "parts-3", "parts-4", "parts-5", "parts-6",
+                                  "parts-7",
+                                  "parts-8", "parts-11", "parts-12", "parts-13", "parts-20", "parts-14",
+                                  "parts-15",
+                                  "parts-16", "parts-17", "parts-18", "parts-19"
+                                ]
+                              }];
+                              aform.auto_status = '1';
+                              // -- >
+                            </script>
+
+
+                            <script src="/mt/mt-static/plugins/AForm/js/zenhanconv.js" type="text/javascript"></script>
+
+
+
+
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery.js" type="text/javascript"></script>
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery.validate.js" type="text/javascript">
+                            </script>
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery.cookie.js" type="text/javascript">
+                            </script>
+                            <script type="text/javascript">
+                              aform_jQuery.query = {
+                                numbers: false
+                              };
+                            </script>
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery.query.js" type="text/javascript">
+                            </script>
+
+                            <script src="/mt/mt-static/plugins/AForm/js/aform.js" type="text/javascript"></script>
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery-ui.min.js" type="text/javascript">
+                            </script>
+
+                            <script src="/mt/mt-static/plugins/AForm/js/jquery.ui.datepicker-ja.js"
+                              type="text/javascript">
+                            </script>
+
+                            <link rel="stylesheet" type="text/css" href="/mt/mt-static/plugins/AForm/style.css" />
+                            <mt:IfUserAgent wants="SmartPhone">
+                              <link rel="stylesheet" type="text/css" href="/mt/mt-static/plugins/AForm/style_sp.css" />
+                            </mt:IfUserAgent>
+
+
+                            <link rel="stylesheet" type="text/css"
+                              href="/mt/mt-static/plugins/AForm/jquery-ui.min.css" />
+
+
+                            <div id="aform-1" class="aform ja">
+                              <div class="aform-header">テスト01</div>
+                              <div class="aform-checking" style="display:none;">フォームの状態を確認しています...</div>
+                              <div class="aform-content">
+
+                                <form enctype="multipart/form-data" name="aform-form-1" id="aform-form-1" method="post"
+                                  action="/mt/plugins/AForm/aform_engine.cgi" novalidate="novalidate">
+                                  <input type="hidden" name="blog_id" value="24" />
+                                  <input type="hidden" name="id" value="1" />
+                                  <input type="hidden" name="run_mode" value="confirm" />
+                                  <input type="hidden" name="aform_url"
+                                    value="" />
+                                  <input type="hidden" name="aform_path" value="/test/2022/01/01.html" />
+                                  <input type="hidden" name="entry_id" value="584" />
+
+
+
+
+                                  <dl class="dl_parts-1 dl_parts">
+                                    <dt class="SPmt10">
+                                      <span class="aform-label parts-1">チェックボックス</span>
+                                      <p class="aform-required">必須</p>
+                                    </dt>
+
+                                    <dd class="SPmt10">
+                                      <ul class="aform-checkbox-ul aform-field-1 parts-1 aform-vertical-ul">
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-1" name="aform-field-1-1" type="checkbox"
+                                            onchange="aform$(this).valid()" value="1" title="選択してください" />
+                                          <label for="parts-1-1">チェック項目1</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-2" name="aform-field-1-2" type="checkbox"
+                                            onchange="aform$(this).valid()" value="2" title="選択してください" />
+                                          <label for="parts-1-2">チェック項目2</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-3" name="aform-field-1-3" type="checkbox"
+                                            onchange="aform$(this).valid()" value="3" title="選択してください" />
+                                          <label for="parts-1-3">チェック項目3</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-4" name="aform-field-1-4" type="checkbox"
+                                            onchange="aform$(this).valid()" value="4" title="選択してください" />
+                                          <label for="parts-1-4">チェック項目4</label>
+                                        </li>
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-5" name="aform-field-1-5" type="checkbox"
+                                            onchange="aform$(this).valid()" value="5" title="選択してください" />
+                                          <label for="parts-1-5">チェック項目5</label>
+                                        </li>
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-6" name="aform-field-1-6" type="checkbox"
+                                            onchange="aform$(this).valid()" value="6" title="選択してください" />
+                                          <label for="parts-1-6">チェック項目6</label>
+                                          <input type="text"
+                                            class="aform-validate aform-field-option-text validate-option-text parts-1"
+                                            id="parts-1-6-text" name="aform-field-1-6-text"
+                                            title="「チェック項目」の具体的な内容を記入してください" />
+                                        </li>
+
+
+
+                                      </ul>
+
+                                      <ul class="aform-checkbox-ul aform-field-31 parts-31 aform-vertical-ul SPmt20">
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-7" name="aform-field-1-7" type="checkbox"
+                                            onchange="aform$(this).valid()" value="7" title="選択してください" />
+                                          <label for="parts-1-7">チェック項目7</label>
+                                        </li>
+
+                                        <input id="parts-3"
+                                          class="aform-input aform-text parts-3 aform-validate validate-one-required"
+                                          name="aform-field-3" type="text" size="40" title="入力画面（一行）を入力してください" />
+
+                                      </ul>
+
+                                      <ul class="aform-checkbox-ul aform-field-31 parts-31 aform-vertical-ul SPmt10">
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-checkbox parts-1 aform-validate validate-one-required"
+                                            id="parts-1-8" name="aform-field-1-8" type="checkbox"
+                                            onchange="aform$(this).valid()" value="8" title="選択してください" />
+                                          <label for="parts-1-8">チェック項目8</label>
+                                        </li>
+
+                                        <textarea id="parts-4"
+                                          class="aform-input aform-textarea parts-4 aform-validate required SPmt10"
+                                          name="aform-field-4" cols="40" rows="6" title="入力画面 (複数行)を入力してください">
+                                </textarea>
+
+
+                                        </p>
+                                      </ul>
+                                      <ul class="aform-checkbox-ul aform-field-31 parts-31 aform-vertical-ul SPmt10">
+                                        <div>
+
+                                          <li class="aform-error2">
+                                            <input class="aform-input aform-checkbox parts-1 aform-validate"
+                                              id="parts-1-9" name="aform-field-1-9" type="checkbox"
+                                              onchange="aform$(this).valid()" value="9" title="選択してください" />
+                                            <label for="parts-1-9">チェック項目9</label>
+                                          </li>
+
+                                          <p class="aform-error SPmt10 parts-32" id="parts-32-error">※選択してください</p>
+                                        </div>
+                                        <div class="c-width100per">
+
+                                          <textarea id="parts-4"
+                                            class="aform-input aform-textarea parts-4 aform-validate aform-error2 SPmt10"
+                                            name="aform-field-4" cols="40" rows="6"
+                                            title="複数行テキスト(未定義)を入力してください"></textarea>
+
+                                          <p class="aform-error SPmt10 parts-32" id="parts-32-error">※入力してください</p>
+                                        </div>
+                                      </ul>
+                                    </dd>
+                                  </dl>
+
+
+
+
+
+                                  <dl class="dl_parts-2 dl_parts">
+                                    <dt>
+                                      <span class="aform-label parts-2">ラジオボタン</span>
+                                      <p class="aform-required">必須</p>
+                                    </dt>
+
+                                    <dd class="SPmt10">
+                                      <ul class="aform-radio-ul aform-field-2 parts-2 aform-vertical-ul">
+
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-1" name="aform-field-2" type="radio" value="1"
+                                            title="選択してください" />
+                                          <label for="parts-2-1">選択肢1</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-2" name="aform-field-2" type="radio" value="2"
+                                            title="選択してください" />
+                                          <label for="parts-2-2">選択肢2</label>
+                                        </li>
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-3" name="aform-field-2" type="radio" value="3"
+                                            title="選択してください" />
+                                          <label for="parts-2-3">選択肢3</label>
+                                        </li>
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-4" name="aform-field-2" type="radio" value="4"
+                                            title="選択してください" />
+                                          <label for="parts-2-4">選択肢4</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-5" name="aform-field-2" type="radio" value="5"
+                                            title="選択してください" />
+                                          <label for="parts-2-5">選択肢5</label>
+                                        </li>
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-6" name="aform-field-2" type="radio" value="6" required
+                                            title="選択してください" />
+                                          <label for="parts-2-6">選択肢6</label>
+                                          <input type="text"
+                                            class="aform-validate aform-field-option-text validate-option-text parts-2"
+                                            id="parts-2-6-text" name="aform-field-2-6-text"
+                                            title="「選択肢」の具体的な内容を記入してください" />
+                                        </li>
+
+                                      </ul>
+
+
+
+                                      <ul class="aform-radio-ul aform-field-2 parts-2 aform-vertical-ul SPmt20">
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-7" name="aform-field-2" type="radio" value="7"
+                                            title="選択してください" />
+                                          <label for="parts-2-7">選択肢7</label>
+                                        </li>
+
+                                        <input id="parts-3"
+                                          class="aform-input aform-text parts-3 aform-validate validate-one-required"
+                                          name="aform-field-3" type="text" size="40" title="入力画面（一行）を入力してください" />
+
+
+
+                                      </ul>
+
+
+
+                                      <ul class="aform-radio-ul aform-field-2 parts-2 aform-vertical-ul SPmt20">
+
+                                        <li>
+                                          <input
+                                            class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                            id="parts-2-8" name="aform-field-2" type="radio" value="8"
+                                            title="選択してください" />
+                                          <label for="parts-2-8">選択肢8</label>
+                                        </li>
+
+                                        <textarea id="parts-4"
+                                          class="aform-input aform-textarea parts-4 aform-validate required SPmt10"
+                                          name="aform-field-4" cols="40" rows="6" title="入力画面 (複数行)を入力してください">
+                                          </textarea>
+
+
+
+                                      </ul>
+
+
+                                      <ul class="aform-checkbox-ul aform-field-31 parts-31 aform-vertical-ul SPmt10">
+
+                                        <div>
+
+                                          <li class="aform-error2">
+                                            <input
+                                              class="aform-input aform-radio parts-2 aform-validate validate-one-required"
+                                              id="parts-2-9" name="aform-field-2" type="radio" value="8"
+                                              title="選択してください" />
+                                            <label for="parts-2-9">選択肢9</label>
+                                          </li>
+
+                                          <p class="aform-error SPmt10 parts-32" id="parts-32-error">※選択してください</p>
+
+                                        </div>
+
+                                        <div class="c-width100per">
+
+                                          <textarea id="parts-4"
+                                            class="aform-input aform-textarea parts-4 aform-validate aform-error2 SPmt10"
+                                            name="aform-field-4" cols="40" rows="6"
+                                            title="複数行テキスト(未定義)を入力してください"></textarea>
+
+                                          <p class="aform-error SPmt10 parts-32" id="parts-32-error">※入力してください</p>
+
+                                        </div>
+
+                                      </ul>
+
+                                    </dd>
+                                  </dl>
+
+
+                                  <dl class="dl_parts-3 dl_parts">
+                                    <dt>
+                                      <label for="parts-3" class="aform-label parts-3">入力画面(一行)</label>
+                                      <p class="aform-required">必須</p>
+                                    </dt>
+                                    <dd>
+                                      <p class="aform-input-example parts-3 SPmt10">例) サンプルメッセージ</p>
+                                      <input id="parts-3"
+                                        class="aform-input aform-text parts-3 aform-validate required SPmt10"
+                                        name="aform-field-3" type="text" size="40" title="入力画面（一行）を入力してください" />
+                                      <p class="parts-3" id="parts-3-error">
+                                      </p>
+                                    </dd>
+
+
+                                    <dd>
+                                      <p class="aform-error aform-input-example parts-3 SPmt10">例) サンプルメッセージ</p>
+                                      <input id="parts-3"
+                                        class="aform-input aform-text parts-3 aform-validate aform-error2 required SPmt10"
+                                        name="aform-field-3" type="text" size="40" title="入力画面（一行）を入力してください" />
+                                      <p class="aform-error parts-3 SPmt10" id="parts-3-error">※入力してください</p>
+                                    </dd>
+                                  </dl>
+
+
+
+                                  <dl class="dl_parts-4 dl_parts">
+                                    <dt>
+                                      <label for="parts-4" class="aform-label parts-4">入力画面(複数行)</label>
+                                      <p class="aform-required">必須</p>
+                                    </dt>
+                                    <dd>
+                                      <p class="aform-input-example parts-4 SPmt10">例)　サンプルメッセージ</p>
+
+                                      <textarea id="parts-4"
+                                        class="aform-input aform-textarea parts-4 aform-validate required SPmt10"
+                                        name="aform-field-4" cols="40" rows="6" title="入力画面 (複数行)を入力してください">
+                                </textarea>
+
+                                      <p class="aform-error parts-4" id="parts-4-error"></p>
+                                    </dd>
+
+                                    <dd>
+                                      <p class="aform-input-example aform-error SPmt10">例)　サンプルメッセージ</p>
+
+                                      <textarea id="parts-4" class="aform-input aform-textarea parts-4 aform-validate aform-error2 required
+                                        SPmt10" name="aform-field-4" cols="40" rows="6" title="入力画面 (複数行)を入力してください">
+                                      </textarea>
+
+                                      <p class="aform-error parts-4 SPmt10" id="parts-4-error">※入力してください</p>
+                                    </dd>
+                                  </dl>
+
+
+
+                                  <dl class="dl_parts-5 dl_parts">
+
+                                    <dt>
+                                      <label for="parts-5" class="aform-label parts-5">サンプルテキスト SAMPLE TEXT
+                                        サンプルテキストSAMPLE TEXT サンプルテキストSAMPLE TEXT</label>
+                                      <p class="aform-required">必須</p>
+                                    </dt>
+
+                                    <dd>
+                                      <select id="parts-5" class="aform-input aform-select parts-5 aform-validate validate-selection
+                                        SPmt10" name="aform-field-5" title="選択してください">
+                                        <option value="">選択してください</option>
+                                        <option value="1">値1</option>
+                                        <option value="2">値2</option>
+                                      </select>
+                                      <p class="aform-error parts-5" id="parts-5-error"></p>
+                                    </dd>
+
+                                    <dd>
+                                      <select id="parts-5" class="aform-input aform-select parts-5 aform-validate validate-selection
+                                        aform-error2 SPmt10" name="aform-field-5" title="選択してください">
+                                        <option value="">選択してください</option>
+                                        <option value="1">値1</option>
+                                        <option value="2">値2</option>
+                                      </select>
+                                      <p class="aform-error parts-5 SPmt10" id="parts-5-error">※選択してください</p>
+                                    </dd>
+
+                                  </dl>
+
+
+
+                                  <dl class="dl_parts-6 dl_parts">
+
+                                    <dt>
+                                      <label for="parts-6" class="aform-label parts-6">その他機能</label>
+                                    </dt>
+
+                                    <dd class="SPmt20">
+                                      <input id="parts-6-1"
+                                        class="aform-input aform-upload parts-6 aform-validate required"
+                                        name="aform-field-6" type="file" size="40" title="ファイルを選択してください" />
+                                      <label for="parts-6-1">ファイルを選択</label>
+                                      <span>選択されていません</span>
+                                      <input type="button" id="clear_upload_parts-6" class="clear_upload"
+                                        data-parts_id="parts-6" value="キャンセル" />
+                                    </dd>
+
+                                    <dd class="SPmt10">
+                                      <input id="parts-6-2" class="aform-input aform-upload parts-6 aform-validate"
+                                        name="aform-field-6" type="file" size="40" title="ファイルを選択してください" />
+                                      <label for="parts-6-2">ファイルを選択</label>
+                                      <span>alphabet_…cter_a.png</span>
+                                      <input type="button" id="clear_upload_parts-6" class="clear_upload"
+                                        data-parts_id="parts-6-2" value="キャンセル" />
+
+                                    </dd>
+
+
+                                    <dd class="SPmt20">
+                                      <select class="aform-input aform-calendar parts-17 aform-validate"
+                                        id="parts-17-yy" name="aform-field-17-yy" title="年を選択してください">
+                                        <option value="">----</option>
+                                        <option value="1900">1900</option>
+                                        <option value="1901">1901</option>
+                                        <option value="1902">1902</option>
+                                        <option value="1903">1903</option>
+                                        <option value="1904">1904</option>
+                                        <option value="1905">1905</option>
+                                        <option value="1906">1906</option>
+                                        <option value="1907">1907</option>
+                                        <option value="1908">1908</option>
+                                        <option value="1909">1909</option>
+                                        <option value="1910">1910</option>
+                                        <option value="1911">1911</option>
+                                        <option value="1912">1912</option>
+                                        <option value="1913">1913</option>
+                                        <option value="1914">1914</option>
+                                        <option value="1915">1915</option>
+                                        <option value="1916">1916</option>
+                                        <option value="1917">1917</option>
+                                        <option value="1918">1918</option>
+                                        <option value="1919">1919</option>
+                                        <option value="1920">1920</option>
+                                        <option value="1921">1921</option>
+                                        <option value="1922">1922</option>
+                                        <option value="1923">1923</option>
+                                        <option value="1924">1924</option>
+                                        <option value="1925">1925</option>
+                                        <option value="1926">1926</option>
+                                        <option value="1927">1927</option>
+                                        <option value="1928">1928</option>
+                                        <option value="1929">1929</option>
+                                        <option value="1930">1930</option>
+                                        <option value="1931">1931</option>
+                                        <option value="1932">1932</option>
+                                        <option value="1933">1933</option>
+                                        <option value="1934">1934</option>
+                                        <option value="1935">1935</option>
+                                        <option value="1936">1936</option>
+                                        <option value="1937">1937</option>
+                                        <option value="1938">1938</option>
+                                        <option value="1939">1939</option>
+                                        <option value="1940">1940</option>
+                                        <option value="1941">1941</option>
+                                        <option value="1942">1942</option>
+                                        <option value="1943">1943</option>
+                                        <option value="1944">1944</option>
+                                        <option value="1945">1945</option>
+                                        <option value="1946">1946</option>
+                                        <option value="1947">1947</option>
+                                        <option value="1948">1948</option>
+                                        <option value="1949">1949</option>
+                                        <option value="1950">1950</option>
+                                        <option value="1951">1951</option>
+                                        <option value="1952">1952</option>
+                                        <option value="1953">1953</option>
+                                        <option value="1954">1954</option>
+                                        <option value="1955">1955</option>
+                                        <option value="1956">1956</option>
+                                        <option value="1957">1957</option>
+                                        <option value="1958">1958</option>
+                                        <option value="1959">1959</option>
+                                        <option value="1960">1960</option>
+                                        <option value="1961">1961</option>
+                                        <option value="1962">1962</option>
+                                        <option value="1963">1963</option>
+                                        <option value="1964">1964</option>
+                                        <option value="1965">1965</option>
+                                        <option value="1966">1966</option>
+                                        <option value="1967">1967</option>
+                                        <option value="1968">1968</option>
+                                        <option value="1969">1969</option>
+                                        <option value="1970">1970</option>
+                                        <option value="1971">1971</option>
+                                        <option value="1972">1972</option>
+                                        <option value="1973">1973</option>
+                                        <option value="1974">1974</option>
+                                        <option value="1975">1975</option>
+                                        <option value="1976">1976</option>
+                                        <option value="1977">1977</option>
+                                        <option value="1978">1978</option>
+                                        <option value="1979">1979</option>
+                                        <option value="1980">1980</option>
+                                        <option value="1981">1981</option>
+                                        <option value="1982">1982</option>
+                                        <option value="1983">1983</option>
+                                        <option value="1984">1984</option>
+                                        <option value="1985">1985</option>
+                                        <option value="1986">1986</option>
+                                        <option value="1987">1987</option>
+                                        <option value="1988">1988</option>
+                                        <option value="1989">1989</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1999">1999</option>
+                                        <option value="2000">2000</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2031">2031</option>
+                                        <option value="2032">2032</option>
+                                        <option value="2033">2033</option>
+                                        <option value="2034">2034</option>
+                                        <option value="2035">2035</option>
+                                        <option value="2036">2036</option>
+                                        <option value="2037">2037</option>
+                                        <option value="2038">2038</option>
+                                        <option value="2039">2039</option>
+                                        <option value="2040">2040</option>
+                                        <option value="2041">2041</option>
+                                        <option value="2042">2042</option>
+                                        <option value="2043">2043</option>
+                                        <option value="2044">2044</option>
+                                        <option value="2045">2045</option>
+                                        <option value="2046">2046</option>
+                                        <option value="2047">2047</option>
+                                        <option value="2048">2048</option>
+                                        <option value="2049">2049</option>
+                                        <option value="2050">2050</option>
+                                      </select>
+                                      <label for="parts-17-yy">年</label>
+                                      <select class="aform-input aform-calendar parts-17 aform-validate"
+                                        id="parts-17-mm" name="aform-field-17-mm" title="月を選択してください">
+                                        <option value="">--</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                      </select><label for="parts-17-mm">月</label><select
+                                        class="aform-input aform-calendar parts-17 aform-validate" id="parts-17-dd"
+                                        name="aform-field-17-dd" title="日を選択してください">
+                                        <option value="">--</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                      </select><label for="parts-17-dd">日</label><span><input type="hidden"
+                                          id="parts-17" name="aform-field-17"></span>
+                                      <script type="text/javascript">
+                                        aform$(function () {
+                                          set_datepicker("parts-17", 1900, 2050, "today", {});
+                                        });
+                                      </script>
+                                      <p id="parts-17-yy-error"></p>
+                                      <p id="parts-17-mm-error"></p>
+                                      <p id="parts-17-dd-error"></p>
+                                    </dd>
+
+
+                                  </dl>
+
+
+
+
+
+                                  <dl class="dl_parts dl_parts21">
+                                    <div class="c-btns">
+                                      <a class="c-btn c-btn--orange1" href="#">次へ</a>
+                                      <a class="c-btn c-btn--orange1" href="#">入力内容を確認する</a>
+                                    </div>
+                                  </dl>
+
+                                  <!-- =================================================================================== -->
+
+
+
+
+
+
+                                  <script type="text/javascript">
+                                    //<!--
+                                    aform$(document).ready(function () {
+
+
+                                      postAFormAccessLog('1');
+                                      postAFormChecker();
+
+                                      addAFormValidate();
+                                      aform$('#aform-form-1').validate({
+                                        ignore: [],
+
+                                        onkeyup: false,
+                                        wrapper: "div",
+                                        showErrors: aformValidate_showErrors,
+                                        errorPlacement: aformValidate_errorPlacement
+                                      });
+
+
+                                    });
+                                    // -->
+                                  </script>
+
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+
+
+
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="c-breadcrumbSP">
+            <ol class="c-breadcrumbSP__lists">
+              <li><a href="#">トップ</a></li>
+              <li><a href="#">フォーム</a></li>
+            </ol>
+          </div>
+
+
+
+
+
+        </body>
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <footer class="l-footer c-footer">
+
+    <div id="page_top" class="l-pageTopBox c-pageTopBox">
+      <span class="c-pageTop"></span>
+    </div>
+
+
+
+    <div class="l-footerInner">
+
+      <div class="c-footer__container01">
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="./newsTop.html" class="c-accordion__label">
+            お知らせ
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+          <ul class="c-accordion__lists">
+            <li><a href="#">通達</a></li>
+            <li><a href="#">通知</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            規程・手続き関連
+          </a>
+
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+          <ul class="c-accordion__lists">
+            <li><a href="#">会社諸規定</a></li>
+            <li><a href="#">各種手続き</a></li>
+            <li><a href="#">安全衛生</a></li>
+            <li><a href="#">福利厚生</a></li>
+            <li><a href="#">拠点</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            システム関連
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">各種手続き</a></li>
+            <li><a href="#">安全衛生</a></li>
+            <li><a href="#">福利厚生</a></li>
+            <li><a href="#">拠点</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="./techTop.html" class="c-accordion__label">
+            教育・研修
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">研修</a></li>
+            <li><a href="#">各種⼿続き</a></li>
+            <li><a href="#">Eラーニング</a></li>
+            <li><a href="#">カレンダー</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            詳細
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">教育G所轄の書籍の貸し出し</a></li>
+            <li><a href="#">Udemyなどライセンス</a></li>
+            <li><a href="#">設備管理（PC・CADなど教育所轄設備）</a></li>
+            <li><a href="#">講座申し込み</a></li>
+            <li><a href="#">検定の申し込み</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            技術
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">技術紹介</a></li>
+            <li><a href="#">S職紹介</a></li>
+            <li><a href="#">戦略ローテ</a></li>
+            <li><a href="#">案件紹介</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            コミュニケーション
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">社長メッセージ</a></li>
+            <li><a href="#">投稿</a></li>
+            <li><a href="#">その他</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            会社諸規定関連
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">会社諸規定</a></li>
+            <li><a href="#">各種⼿続き</a></li>
+            <li><a href="#">安全衛⽣</a></li>
+            <li><a href="#">福利厚⽣</a></li>
+            <li><a href="#">連絡先 / 拠点</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="c-footer__contactImg c-contactImg">
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer05.png" alt="perms">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer02.jpg" alt="">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer03.jpg" alt="perms">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer04.jpg" alt="perms">
+        </a>
+
+      </div>
+
+
+      <div class="c-footer__utilityNavi c-utility">
+        <nav class="c-utility__box">
+          <ul class="c-utility__lists">
+            <li><a href="#">COMPANY人事(社外ネットワーク専用)</a></li>
+            <li><a href="#">COMPANY財務(社外ネットワーク専用)</a></li>
+            <li><a href="#">i-flow</a></li>
+            <li><a href="#">RIBBON</a></li>
+            <li><a href="#">HITO-Talent</a></li>
+            <li><a href="#">Web勤怠</a></li>
+            <li><a href="#">デザインバーチャル背景</a></li>
+            <li><a href="#">社員ポータルについて</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+      <div class="c-footer__copyBox">
+        <small class="c-copy">Copyright &copy; bell CO.,LTD.All Rights Reserved</small>
+      </div>
+
+    </div>
+
+
+    <div class="c-footer__logo c-footerLogo">
+
+      <div class="l-footerInner">
+
+        <div class="c-footerLogo__container">
+
+          <a href="./index.html" class="c-footerLogo__logoBox--1">
+            <img src="./img/footerLogo03.png" alt="ロゴ画像">
+          </a>
+
+          <div class="c-footerLogo__logoBox--2">
+            <img src="./img/footerLogo04.png" alt="ロゴ画像">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+
+
+</body>
+
+</html>

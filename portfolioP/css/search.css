@@ -1,0 +1,47 @@
+.p-search__lists {
+	width: 100%;
+	height: auto;
+}
+
+.p-search__lists li {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px dotted #53565a;
+}
+.p-search__lists li a {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+	.p-search__lists li a {
+		flex-direction: row;
+	}
+}
+
+.p-search__lists li a time {
+	font-size: 0.75rem;
+	color: #53565a;
+}
+
+@media screen and (min-width: 768px) {
+	.p-search__lists li a time {
+		font-size: 0.875rem;
+	}
+}
+
+.p-search__lists li a p {
+	font-size: 0.875rem;
+	font-weight: bold;
+	color: #53565a;
+}
+
+@media screen and (min-width: 768px) {
+	.p-search__lists li a p {
+		font-size: 1rem;
+		font-weight: bold;
+		margin-left: 20px;
+	}
+}

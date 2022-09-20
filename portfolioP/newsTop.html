@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>bellNewsPage</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="”icon”" href="" />
+  <!-- フォント -->
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- <link rel="stylesheet" href="./css/component.css"> -->
+  <!-- <link rel="stylesheet" href="./css/layout.css"> -->
+  <!-- <link rel="stylesheet" href="./css/reuse.css"> -->
+  <link rel="stylesheet" href="./css/news.css">
+  <!-- <link rel="stylesheet" href="./css/newsdetail.css"> -->
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- json読み込みライブラリ -->
+  <script src="../js/jquery.xdomainajax.js"></script>
+  <script defer src="./js/script.js"></script>
+  <script defer src="./js/calendarp.js"></script>
+</head>
+
+<body>
+
+  <header class="c-header">
+    <div class="c-header__wrapper">
+
+      <div class="l-headerInner">
+
+        <div class="c-header__container">
+
+          <a href="./index.html" class="c-header__titleBox">
+            <h1 class="c-header__logo">
+              <img src="./img/headerLogo01.png" alt="タイトルロゴ">
+            </h1>
+          </a>
+
+          <div class="c-header__boxSP">
+
+            <nav class="c-header__navBox">
+              <ul class="c-header__navLists js-global-nav">
+
+                <li>
+                  <a href="./newsTop.html">
+                    お知らせ
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">通達</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">通知</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">その他</a>
+
+                        <ul>
+                          <li><a href="./404.html">404画面</a></li>
+                          <li><a href="./login.html">ログイン画面</a></li>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="./newsTop.html">その他2</a>
+
+                        <ul>
+                          <li><a href="./techTop.html">技術トップ画面</a></li>
+                          <li><a href="./techDetail.html">技術詳細画面</a></li>
+                          <li><a href="./newsTop.html">ニューストップ画面</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="./newsTop.html">その他3</a>
+
+                        <ul>
+                          <li><a href="./trainingTop.html">教育・研修＜一覧＞</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="./trainingDetail.html">研修詳細</a></li>
+                          <li><a href="./siteSearch.html">サイト内検索ページ
+                            </a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                          <li><a href="#">サンプルテキスト</a></li>
+                        </ul>
+
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    規程・手続き関連
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">会社諸規定</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">安全衛生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">福利厚生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+                        <a href="#">拠点</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    システム関連
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">安全衛生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">福利厚生</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">拠点</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+
+                </li>
+
+
+
+
+                <li>
+                  <a href="#" class="c-header__item">
+                    教育
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+
+                      <li>
+
+                        <a href="#">研修</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">各種手続き</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">Eラーニング</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">カレンダー</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">詳細</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                    </ul>
+                  </div>
+
+                </li>
+
+                <li>
+                  <a href="#">
+                    詳細
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">教育G所轄の書籍の貸し出し</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">Udemyなどライセンス</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">設備管理<br>（PC・CADなど教育所轄設備）</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+
+                      <li>
+
+                        <a href="#">講座申し込み</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">検定の申し込み</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">お問い合わせ</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </li>
+
+
+
+
+
+
+                <li>
+                  <a href="#">
+                    コミュニケーション
+                  </a>
+                  <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+                  <div class="l-headerSub c-headerSub">
+
+                    <ul>
+
+                      <li>
+
+                        <a href="#">社長メッセージ</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+
+                        <a href="#">投稿</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+                      <li>
+
+                        <a href="#">その他</a>
+
+                        <ul>
+                          <li><a href="#">サンプル</a></li>
+                          <li><a href="#">サンプル</a></li>
+                        </ul>
+
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </li>
+
+              </ul>
+            </nav>
+
+
+            <form action="#" name="search1" method="post" class="c-header__search01 c-search01">
+              <dl>
+                <dt>
+                  <input type="text" name="search" value="" placeholder="検索ワードを入力" />
+                </dt>
+                <dd><button><span></span></button></dd>
+              </dl>
+            </form>
+
+
+            <div class="c-header__utilityNavi c-utility">
+              <nav class="c-utility__box">
+                <ul class="c-utility__lists">
+                  <li><a href="#">COMPANY人事(社外ネットワーク専用)</a></li>
+                  <li><a href="#">COMPANY財務(社外ネットワーク専用)</a></li>
+                  <li><a href="#">i-flow</a></li>
+                  <li><a href="#">RIBBON</a></li>
+                  <li><a href="#">HITO-Talent</a></li>
+                  <li><a href="#">Web勤怠</a></li>
+                  <li><a href="#">デザインバーチャル背景</a></li>
+                  <li><a href="#">社員ポータルについて</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+            <div class="c-header__close c-btnClose">
+              <span></span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="js-hamburger c-header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+
+  <div class="l-innerA">
+
+
+
+    <div class="c-breadcrumbPC">
+      <ol class="c-breadcrumbPC__lists">
+        <li><a href="./index.html">トップ</a></li>
+        <li><a href="./newsTop.html">お知らせ＜カレンダー＞＜一覧＞</a></li>
+      </ol>
+    </div>
+
+
+
+    <div class="l-twoCol">
+
+      <div class="l-mainCol">
+
+
+
+        <section class="p-secCalender">
+          <div class="p-secCalender__titleBox js-calender__toggle p-secTitle">
+            <h2 class="p-secTitle__mainTitle c-secTitle">
+              お知らせ＜カレンダー＞
+            </h2>
+            <div class="p-secTitle__toggleBtnBox">
+              <span class="p-secTitle__toggleBtn c-secTitleToggleBtn"></span>
+            </div>
+          </div>
+          <div class="p-secCalender__container p-calender">
+            <div class="p-calender__titleBox">
+              <p class="p-calender__currentMonth"></p>
+              <a href="#" class="p-calender__prevBox" id="js-prevM">
+                <span class="p-calender__prevPage c-prevPagination"></span>
+                <p class="p-calender__prevMonth"></p>
+              </a>
+              <a href="#" class="p-calender__nextPaginationBox" id="js-nextM">
+                <p class="p-calender__nextMonth"></p>
+                <span class="p-calender__nextPagination c-nextPagination"></span>
+              </a>
+            </div>
+
+
+            <table class="p-calender__table p-calenderTable">
+
+
+
+            </table>
+
+
+
+            <!-- ============================================ -->
+            <div class="p-popupBox">
+
+            </div>
+
+            <!-- ============================================ -->
+
+
+            <a href="./index.html" class="p-calender__popup p-popup" data-date="20220106" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">【メディア掲載】名古屋テレビ</p>
+
+                <p class="p-popup__excerpt">
+                  1/10放映：23卒就活応援アワー「輝く！東海の企業たち」
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220106" data-id="2">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">【メディア掲載】小学生ロボコン2021-22</p>
+
+                <p class="p-popup__excerpt">
+                  全国共通予選 操縦ロボット競技会へ運営協力
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220110" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">通知経企21-021</p>
+
+                <p class="p-popup__excerpt">
+                  【要確認】2021年度社員表彰 募集のお知らせ
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220112" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">標的型メール攻撃訓練の注意ポイント</p>
+
+                <p class="p-popup__excerpt">
+                  標的型メール攻撃訓練の注意ポイント
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220113" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">PRO SBU
+                  DI&E企画「女性管理職インタビュー 第2回」</p>
+
+                <p class="p-popup__excerpt">
+                  ～時短勤務で管理職に！？PRDの女性MGRに聞いてみた！～
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220114" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">【メディア掲載】MortorFan</p>
+
+                <p class="p-popup__excerpt">
+                  illustrated 1/15発売：MFi RECRUIT SPECIAL「自動車業界で働く」
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220120" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">通達経企21-022</p>
+
+                <p class="p-popup__excerpt">
+                  【要対応】請負業務を再委託する際の計上科目について
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220121" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">【メディア掲載】高翔</p>
+
+                <p class="p-popup__excerpt">
+                  No.77（自動車技術会 関東支部報）
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220127" data-id="1">
+
+              <div class="p-popup__container">
+                <p class="p-popup__title">グッズストア休止(2/26～3/31)のお知らせ</p>
+
+                <p class="p-popup__excerpt">
+                  グッズストア休止(2/26～3/31)のお知らせ
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="p-calender__popup p-popup" data-date="20220131" data-id="1">
+              <div class="p-popup__container">
+
+                <p class="p-popup__title">【メディア掲載】</p>
+
+                <p class="p-popup__excerpt">
+                  陸内協の機関誌「LEMA」546号「1月末発行」
+                </p>
+
+                <p class="p-popup__target">
+                  <span>【対応範囲】</span><span>全社員</span>
+                </p>
+
+                <p class="p-popup__deadline">
+                  <span>【対応期限】</span><span>2022年2月28日</span>
+                </p>
+
+              </div>
+
+            </a>
+
+
+
+
+
+
+
+            <div class="p-newsdetailSP">
+
+
+
+              <div class="l-innerB">
+
+                <div class="p-newsdetailSP__head">
+
+
+                  <button class="p-newsdetailSP__closeButton">閉じる</button>
+
+                  <ol class="p-newsdetailSP__dateBox">
+
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p></p>
+                        <p></p>
+                      </a>
+                    </li>
+
+                  </ol>
+                </div>
+
+
+                <div class="p-newsDetailLists">
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+        </section>
+
+
+        <section class="p-secNewsLists">
+
+
+          <div class="p-secNewsLists__titleBox p-secTitle">
+
+            <h2 class="p-secTitle__mainTitle c-secTitle">
+              お知らせ ＜一覧＞
+            </h2>
+
+          </div>
+
+          <p class="p-secNewsLists__sectionSubTitle--sp c-sectionSubTitle">通知・お知らせ</p>
+          <p class="p-secNewsLists__sectionSubTitle--pc c-sectionSubTitle">すべて</p>
+
+
+
+          <div class="p-secNewsLists__headContainer p-newsListsHead">
+
+            <div class="p-newsListsHead__labelBox">
+
+
+              <time class="p-newsListsHead__sendDate c-newsListsHeadItem">発信日</time>
+
+              <div class="p-newsListsHead__client c-newsListsHeadItem">依頼元</div>
+
+            </div>
+
+            <p class="p-newsListsHead__mainItem c-newsListsHeadItem">
+              タイトル
+            </p>
+
+
+            <p class="p-newsListsHead__deadline c-newsListsHeadItem">
+              対応期限
+            </p>
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark"></p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立つ。どこへ越しても住み
+              </a>
+
+
+
+            </div>
+
+
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline"><span class="p-newsLists__deadline--first">対応期限 / </span></p>
+
+              <div class="p-newsLists__icon">
+                <a href="#" class="c-icon c-icon-pdf">PDF</a>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark">New</p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立
+                つ。どこへ越しても住みにくいと悟った時、詩が生まれて、画が出来る。
+              </a>
+
+
+
+            </div>
+
+
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline">
+                <span class="p-newsLists__deadline--first">対応期限 / </span>2022.02.28
+              </p>
+
+              <div class="p-newsLists__icon">
+                <a href="#" class="c-icon c-icon-blank">blank</a>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark">New</p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立
+                つ。どこへ越しても住みにくいと悟った時、詩が生まれて、画が出来る。
+              </a>
+
+              <div class="p-newsLists__hashtagBox p-hashtag">
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+              </div>
+
+            </div>
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline">
+                <span class="p-newsLists__deadline--first">対応期限 / </span>2021.09.10
+              </p>
+
+              <div class="p-newsLists__icon">
+                <a href="#" class="c-icon c-icon-pdf">PDF</a>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark">New</p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立
+                つ。どこへ越しても住みにくいと悟った時、詩が生まれて、画が出来る。
+              </a>
+
+              <div class="p-newsLists__hashtagBox p-hashtag">
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+              </div>
+
+            </div>
+
+
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline">
+                <span class="p-newsLists__deadline--first">対応期限 / </span>2022.02.28
+              </p>
+
+              <div class="p-newsLists__icon">
+                <a href="#" class="c-icon c-icon-blank">blank</a>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark">New</p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立
+                つ。どこへ越しても住みにくいと悟った時、詩が生まれて、画が出来る。
+              </a>
+
+              <div class="p-newsLists__hashtagBox p-hashtag">
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+              </div>
+
+            </div>
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline">
+                <span class="p-newsLists__deadline--first">対応期限 / </span>2021.09.10
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="p-secNewsLists__container p-newsLists">
+
+            <div class="p-newsLists__labelBox">
+
+              <p class="p-newsLists__newMark c-newMark">New</p>
+
+              <time class="p-newsLists__sendDate c-date">2021.12.01</time>
+
+              <div class="p-newsLists__client c-client">サンプル</div>
+
+            </div>
+
+            <div class="p-newsLists__mainItemBox">
+
+              <a href="#" class="p-newsLists__textExcerpt">
+                情に棹させば流される。智に働けば角が立
+                つ。どこへ越しても住みにくいと悟った時、詩が生まれて、画が出来る。
+              </a>
+
+              <div class="p-newsLists__hashtagBox p-hashtag">
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+                <a href="#" class="p-hashtag__btn">#ハッシュタグ</a>
+              </div>
+
+            </div>
+
+            <div class="p-newsLists__flexendBox">
+              <p class="p-newsLists__deadline">
+                <span class="p-newsLists__deadline--first">対応期限 / </span>2021.09.10
+              </p>
+
+            </div>
+
+
+
+
+          </div>
+
+
+        </section>
+
+
+
+
+        <div class="l-newsPager c-pager">
+          <ul class="c-pager__lists">
+            <li class="c-pager__pre"><a href="#">‹</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li class="c-pager__next"><a href="#">›</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="l-sideColumn">
+
+        <form action="#" name="search2" method="post" class="c-side__contentsSearch c-contentsSearch">
+          <dl>
+            <dt>
+              <input type="text" name="search" value="" placeholder="コンテンツ内検索" />
+            </dt>
+            <dd><button><span></span></button></dd>
+          </dl>
+        </form>
+
+
+        <div class="l-findCategory c-findCategory">
+
+          <h2 class="c-findCategory__title c-sideBarTitle">カテゴリから探す</h2>
+
+          <div class="c-findCategory__container">
+
+            <button class="c-findCategory__button">すべて</button>
+            <button class="c-findCategory__button">通達</button>
+            <button class="c-findCategory__button">通知</button>
+            <button class="c-findCategory__button">お知らせ</button>
+
+          </div>
+
+        </div>
+
+
+        <div class="l-findClient c-findClient">
+
+          <h2 class="c-findClient__title c-sideBarTitle">依頼元から探す</h2>
+
+          <div class="c-findClient__container">
+
+            <ul class="c-findClient__lists">
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">労務</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">労務</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">労務</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">労務</a></li>
+              <li><a href="#">サンプル</a></li>
+              <li><a href="#">サンプル</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+
+        <div class="l-findTag c-findTag">
+
+          <h2 class="c-findTag__title c-sideBarTitle">タグから探す</h2>
+
+          <div class="c-findTag__container">
+
+            <ul class="c-findTag__lists">
+              <li><a href="#">#ハッシュタグ</a></li>
+              <li><a href="#">#ハッシュタグ</a></li>
+              <li><a href="#">#ハッシュ</a></li>
+              <li><a href="#">#ハッシュタグ</a></li>
+              <li><a href="#">#ハッシュ</a></li>
+              <li><a href="#">#ハッシ</a></li>
+              <li><a href="#">#ハッシ</a></li>
+              <li><a href="#">#ハッシュタ</a></li>
+              <li><a href="#">#ハッシ</a></li>
+              <li><a href="#">#ハッシュタグ</a></li>
+              <li><a href="#">#ハッシュタグ</a></li>
+              <li><a href="#">#ハッシュ</a></li>
+              <li><a href="#">#ハッシュ</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+
+        <div class="l-freeInput c-freeInput">
+
+          <p class="c-freeInput__text">エディタによる<br>フリー入力</p>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+      <div class="c-breadcrumbSP">
+        <ol class="c-breadcrumbSP__lists">
+          <li><a href="#">トップ</a></li>
+          <li><a href="#">お知らせ＜カレンダー＞＜一覧＞</a></li>
+        </ol>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+  <footer class="l-footer c-footer">
+
+    <div id="page_top" class="l-pageTopBox c-pageTopBox">
+      <span class="c-pageTop"></span>
+    </div>
+
+    <div class="l-footerInner">
+
+      <div class="c-footer__container01">
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="./newsTop.html" class="c-accordion__label">
+            お知らせ
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+          <ul class="c-accordion__lists">
+            <li><a href="#">通達</a></li>
+            <li><a href="#">通知</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            規程・手続き関連
+          </a>
+
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+
+          <ul class="c-accordion__lists">
+            <li><a href="#">会社諸規定</a></li>
+            <li><a href="#">各種手続き</a></li>
+            <li><a href="#">安全衛生</a></li>
+            <li><a href="#">福利厚生</a></li>
+            <li><a href="#">拠点</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            システム関連
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">各種手続き</a></li>
+            <li><a href="#">安全衛生</a></li>
+            <li><a href="#">福利厚生</a></li>
+            <li><a href="#">拠点</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="./techTop.html" class="c-accordion__label">
+            教育・研修
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">研修</a></li>
+            <li><a href="#">各種⼿続き</a></li>
+            <li><a href="#">Eラーニング</a></li>
+            <li><a href="#">カレンダー</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            詳細
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">教育G所轄の書籍の貸し出し</a></li>
+            <li><a href="#">Udemyなどライセンス</a></li>
+            <li><a href="#">設備管理（PC・CADなど教育所轄設備）</a></li>
+            <li><a href="#">講座申し込み</a></li>
+            <li><a href="#">検定の申し込み</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            技術
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">技術紹介</a></li>
+            <li><a href="#">S職紹介</a></li>
+            <li><a href="#">戦略ローテ</a></li>
+            <li><a href="#">案件紹介</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            コミュニケーション
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">社長メッセージ</a></li>
+            <li><a href="#">投稿</a></li>
+            <li><a href="#">その他</a></li>
+          </ul>
+        </div>
+
+        <div class="c-footer__accordion c-accordion">
+          <a href="#" class="c-accordion__label">
+            会社諸規定関連
+          </a>
+          <span class="c-accordion__toggleBtn c-accordionToggleBtn"></span>
+          <ul class="c-accordion__lists">
+            <li><a href="#">会社諸規定</a></li>
+            <li><a href="#">各種⼿続き</a></li>
+            <li><a href="#">安全衛⽣</a></li>
+            <li><a href="#">福利厚⽣</a></li>
+            <li><a href="#">連絡先 / 拠点</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="c-footer__contactImg c-contactImg">
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer05.png" alt="perms">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer02.jpg" alt="">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer03.jpg" alt="perms">
+        </a>
+
+        <a href="#" class="c-contactImg__imgBox">
+          <img src="./img/footer04.jpg" alt="perms">
+        </a>
+
+      </div>
+
+
+      <div class="c-footer__utilityNavi c-utility">
+        <nav class="c-utility__box">
+          <ul class="c-utility__lists">
+            <li><a href="#">COMPANY人事(社外ネットワーク専用)</a></li>
+            <li><a href="#">COMPANY財務(社外ネットワーク専用)</a></li>
+            <li><a href="#">i-flow</a></li>
+            <li><a href="#">RIBBON</a></li>
+            <li><a href="#">HITO-Talent</a></li>
+            <li><a href="#">Web勤怠</a></li>
+            <li><a href="#">デザインバーチャル背景</a></li>
+            <li><a href="#">社員ポータルについて</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+      <div class="c-footer__copyBox">
+        <small class="c-copy">Copyright &copy; bell CO.,LTD.All Rights Reserved</small>
+      </div>
+
+    </div>
+
+
+    <div class="c-footer__logo c-footerLogo">
+
+      <div class="l-footerInner">
+
+        <div class="c-footerLogo__container">
+
+          <a href="./index.html" class="c-footerLogo__logoBox--1">
+            <img src="./img/footerLogo03.png" alt="ロゴ画像">
+          </a>
+
+          <div class="c-footerLogo__logoBox--2">
+            <img src="./img/footerLogo04.png" alt="ロゴ画像">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+</body>
+
+</html>

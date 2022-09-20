@@ -1,0 +1,28 @@
+.p-404 {
+	text-align: center;
+}
+
+.p-404__h1 {
+	font-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+	.p-404__h1 {
+		font-size: 100px;
+	}
+}
+
+.p-404__subTitle {
+	font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	.p-404__subTitle {
+		font-size: 73px;
+	}
+}
+
+.p-404 button {
+	margin: 38px auto 0;
+	width: 345px;
+}

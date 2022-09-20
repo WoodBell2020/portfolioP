@@ -1,0 +1,108 @@
+element.style {
+}
+.aform-content dl input[type="radio"], .aform-content dl input[type="checkbox"], .aform-content dl input[type="file"] {
+    font-size: inherit;
+    width: auto;
+    padding: 0;
+}
+
+.aform-content input.aform-checkbox, .aform-content input.aform-radio {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.aform-content ul input, .aform-content dl .aform-calendar {
+    width: auto;
+}
+.aform-content dl input, .aform-content dl textarea, .aform-content dl select {
+    font-size: 120%;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+html, body, div, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, hr, th, td {
+    margin: 0;
+    padding: 0;
+}
+ユーザー エージェント スタイルシート
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+ユーザー エージェント スタイルシート
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.aform .aform-content ul, .aform .aform-content li, .aform .aform-content div, .aform .aform-content dl p {
+    list-style: none;
+    margin: 0;
+}
+.aform-content ul, .aform-content li, .aform-content dl p {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ユーザー エージェント スタイルシート
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style: disc outside;
+}
+ol, ul {
+    list-style: none;
+}
+ユーザー エージェント スタイルシート
+ul {
+    list-style-type: disc;
+}
+#container-inner {
+    width: 940px;
+    min-height: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+body {
+    color: #333;
+    font-family: trebuchet ms;
+    background-color: #fff;
+}
+body {
+    font: normal 13px arial, helvetica, hirakakupro-w3, osaka, "ms pgothic", sans-serif;
+}
+body {
+    text-align: center;
+    background: #fff;
